@@ -18,8 +18,10 @@ var text = document.getElementById("output1")
 
 function changeColor() {
     return "#00FF00";
+
 };
 
 button.addEventListener("click", () => {
     text.style.color = changeColor()
+
 })
