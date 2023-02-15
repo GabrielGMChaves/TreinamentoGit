@@ -9,8 +9,6 @@ function aparecerTexto() {
 
 btn1.addEventListener('click', aparecerTexto);
 
-
-
 //funcionalidades do botão esverdeou
 
 var button = document.getElementById("button");
