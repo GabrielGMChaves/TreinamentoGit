@@ -9,8 +9,6 @@ function aparecerTexto() {
 
 btn1.addEventListener('click', aparecerTexto);
 
-
-
 //funcionalidades do botão esverdeou
 
 var button = document.getElementById("button");
@@ -18,8 +16,10 @@ var text = document.getElementById("output1")
 
 function changeColor() {
     return "#00FF00";
+
 };
 
 button.addEventListener("click", () => {
     text.style.color = changeColor()
+
 })
